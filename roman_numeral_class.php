@@ -1,5 +1,9 @@
 <?php
 class RomanNumeral {
+	/**
+	 * Function Convert numeric to roman
+	 * @param $num 
+	 */
 	public function number_to_roman($num) {
 		$n = intval($num);
 		$result = '';
@@ -30,7 +34,10 @@ class RomanNumeral {
 		//then return the result
 		return $result;
 	}
-	
+	/**
+	 * Function Covert roman number value to bar code
+	 * @param $romannum
+	 */
 	public function romannum_to_barcode($romannum){
 		$result = '';
 		//roman_numerals array
